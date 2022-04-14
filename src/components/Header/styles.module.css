@@ -1,0 +1,32 @@
+/* .headerConteiner {
+  width: min-content;
+  height: min-content;
+} */
+
+.header {
+  min-height: 100px;
+  max-width: 1100px;
+  margin: auto;
+  padding: 15px 15px 0;
+  display: flex;
+  justify-content: center;
+}
+.homeIcon {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.homeConteiner {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  cursor: pointer;
+  color: #8d99ae;
+  transition: transform 0.2s, color 0.2s;
+  user-select: none;
+}
+.homeConteiner:hover {
+  transform: scale(1.1);
+  color: #76e7cd;
+}
